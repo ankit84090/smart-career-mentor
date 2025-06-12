@@ -1,0 +1,28 @@
+{
+    "target_role": "Azure Solutions Architect",
+    "resume_skills": [
+        "Azure",
+        "Terraform",
+        "DevOps",
+        "IaC",
+        "Automation",
+        "Kubernetes",
+        "AI Services"
+    ],
+    "required_skills": [
+        "Solution Design",
+        "Infrastructure as Code",
+        "DevOps",
+        "Kubernetes",
+        "Cloud Security",
+        "Networking",
+        "AI Services"
+    ],
+    "missing_skills": [
+        "Infrastructure as Code",
+        "Solution Design",
+        "Networking",
+        "Cloud Security"
+    ],
+    "course_recommendations_markdown": "### Recommended Courses for Missing Skills:\n\n#### Infrastructure as Code:\n1. **Course:** \"Introduction to Infrastructure as Code\" on Coursera\n2. **Course:** \"Getting Started with Infrastructure as Code\" on Udemy\n3. **Course:** \"Infrastructure as Code on Azure\" on Microsoft Learn\n4. **Course:** \"Automating AWS Infrastructure with Terraform\" on edX\n\n#### Solution Design:\n1. **Course:** \"Azure Solutions Architect: Design and Implement Solutions\" on LinkedIn Learning\n2. **Course:** \"Architecting Microsoft Azure Solutions\" on Udemy\n3. **Course:** \"Cloud Solution Architect Certification Course\" on Coursera\n4. **Course:** \"Designing Distributed Systems\" on edX\n\n#### Networking:\n1. **Course:** \"Azure Networking Concepts\" on Microsoft Learn\n2. **Course:** \"Networking in the Cloud\" on Coursera\n3. **Course:** \"Azure Virtual Network Fundamentals\" on Udemy\n4. **Course:** \"Networking in AWS\" on LinkedIn Learning\n\n#### Cloud Security:\n1. **Course:** \"Azure Security Fundamentals\" on Microsoft Learn\n2. **Course:** \"Cloud Security Basics\" on Coursera\n3. **Course:** \"Securing Cloud Infrastructure\" on Udemy\n4. **Course:** \"Cybersecurity in the Cloud\" on edX\n\n---\n\n### Trusted Learning Websites for Self-Paced Tutorials:\n\n1. **Website:** [Microsoft Learn](https://learn.microsoft.com/)\n2. **Website:** [Azure Blog](https://techcommunity.microsoft.com/t5/azure-blog/bg-p/AzureBlog)\n3. **Website:** [Cloud Academy](https://cloudacademy.com/)\n4. **Website:** [Pluralsight](https://www.pluralsight.com/)\n\nGood luck with your learning journey to become an Azure Solutions Architect! \ud83d\ude80"
+}

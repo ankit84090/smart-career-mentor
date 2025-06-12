@@ -1,0 +1,124 @@
+# Resume Parser
+pip install azure-ai-formrecognizer python-dotenv
+pip install regex spacy
+python -m spacy download en_core_web_sm
+
+# Test Resume Parser Script
+> python resume_parser.py
+> Output:
+==== STRUCTURED DATA ====
+{'name': 'Skillset', 'email': 'ankit84090@gmail.com', 'phone': '9007313102', 'skills': ['docker', 'terraform', 'azure', 'kubernetes'], 
+'raw_text': "Ankit | 8+ YOE | Azure Consultant COE at Microsoft |10xAzure | 1xTerraform. Microsoft Microsoft Certified: DevOps Engineer Expert Microsoft Microsoft CERTIFIED DEVOPS ENGINEER Microsoft Certified: Azure Solutions Architect Expert Microsoft AZURE SOLUTIONS ARCHITECT EXPERT EXPERT *** Microsoft CERTIFIED ASSOCIATE Microsoft Certified: Azure Network Microsoft AZURE DATA FUNDAMENTALS Microsoft Certified: Azure Data Fundamentals Microsoft CERTIFIED AZURE FUNDAMENTALS Microsoft CERTIFIED Microsoft AZURE ADMINISTRATOR ASSOCIATE ** Microsoft Certified: Azure Fundamentals Microsoft Microsoft CERTIFIED AZURE AI FUNDAMENTALS ** Engineer Expert Microsoft * Microsoft Microsoft CERTIFIED Certified: Azure Administrator Associate ** Microsoft AZURE SECURITY ENGINEER ASSOCIATE Microsoft Certified: Azure Security Engineer ... Microsoft Microsoft Certified: Azure Terraform CERTIFED ASSOCIATE AI Fundamentals Microsoft HashiCorp Certified: Terraform Associate (002) HashiCorp Mobile: 9007313102 | E-Mail: ankit84090@gmail.com | LinkedIn: https://www.linkedin.com/in/ankit84090/ Education: 2016 - B. Tech in CSE (CGPA 8.78) | 2012 - 12th (CBSE - 85%) | 2010 - 10th (CBSE - CGPA 9.8) Professional Summary · Azure IaaS SME - 8+ YOE in real-world projects, experience with UK, USA, Aus, India based clients. · Leading a team of 10+ members on Terraform for a complex LZ project for one of the UK based clients. Skillset (L300 - Expert, L200 - Intermediatory Knowledge, L100 - Basics Experience) Azure Technologies (L300) Infra SME, Compute, Storage, Entra ID, Network, PaaS Services, Identity & Security IaC & Automation (L300) Terraform SME, PowerShell, Automation Accounts, ARM Template, Azure Policies, Architect Role (L200) Design Solutions, Landing Zone Deployment via IaC, Cost Optimization Kubernetes (L100) Docker, Containers, PODs, Replica Sets, Deployments, Services, AKS basics AI Services (L100) Azure AI Services, Machine Learning, Cognitive Account, Open AI, Chat GPT Microsoft EMPLOYER: MICROSOFT (RISE Award, Ignite Award, Extra Light Year Award) • Azure cloud consultant COE and leading work in Azure IaC Infrastructure Deployment, Security. · Leading the project facing customer queries, leading sessions and delivering impactful sessions. Nature of Work and Client: Leading Team for Infrastructure Development and UK-based Investment firm Main Project Features: Led the team working on advanced developments and managed governance activities too. Position held: Team Lead Activities performed: · Led the development of 20+ advanced modules and pioneered service patterns, with HLD and documentation. · Resolved 5+ critical product issues, including Terraform API bugs, fixes acknowledged by engineering teams. · Guided a team of 10+, addressing queries, conducted 100+ MR reviews, ensuring adherence to coding standard. • Actively leading in customer meetings, helping knowledge sharing, and delivering impactful demos. Nature of Work and Client: Design Migration Path to Cloud and Coal and Mines Exporter in Australia Main Project Features: Designed migration path for 7+ complex apps to Cloud, saved 20% of on-premises cost. Position held: Cloud Architect Activities performed: · Design of Apps for migration post extensive discovery & assessment engagement with App owners, Ops team. · Helped mentor other team members in the build domain and uplifted the capability of the squad collectively. Nature of Work and Client: Design BCDR Strategy and Chemical Corporation in US Main Project Features: Configure secured BCDR for existing Cloud Env. without affecting Prod Environment Position held: Cloud Consultant Activities performed: · Developed and implemented a BCDR solution using IaC, RSV, ASR setup, and Recovery Plans. · Conducted customer sessions on BCDR approaches and completed comprehensive documentation LTIMindtree PAST EMPLOYER: MINDTREE (RCM Crest, Spot On - A-Team, MasterMind) • Azure cloud consultant and led work involving cloud resources like VMs, ASPs, Managed Disks. • Saved around $5M within 10 months for the customer. Nature of Work and Client: Cloud Fin-ops and Leading Consumer Goods Corporation Main Project Features: Cost optimization of cloud infra includes Data analysis, Parallel execution, Team building. Position held: Cloud Consultant Activities performed: • Analyzed 500+ resources like VMs, Disks, Identified Underutilized resources basis metrics, performance. • Optimization process involved version upgrades, SKU/Tier/Instance reductions KPMG PAST EMPLOYER: KPMG (Kudos Award) • Provided consultancy to the established firms of domains like Oil & Gas, Telecom & Health Sectors. Nature of Work and Client: On-Premises Infrastructure Setup and Leading Real-Estate Provider Main Project Features: Configure end to end infrastructure which users' ID synchronized over cloud, keeping security as topmost priority, and enforcing group policies too on domain joined devices. Position held: Cloud Consultant Activities performed: . Configure VPN Gateways, Servers, deploy AADDS and Managed Domain, configuring group Policies. • Perform minimum security baseline of complete environment and Local Devices bug fixing Nature of Work and Client: Cloud Deployment and Cost Optimization and Telecommunication Services Mgmt. Main Project Features: Deployed and configured Infra and post-production, optimized 15% cost for the customer. Position held: Cloud SME/L1 Support Activities performed: · Configure VPN Gateways and Clusters, Resolve the network and backup related issues. • Review of current spend on all the services in available subscriptions Nature of Work and Client: Project Management and Leading Oil and Gas Industry Main Project Features: Configure and Manage Cloud based projects. Position held: Cloud SME/Consultant Activities performed: Suggested services along with the security measures for deploying a big data stack on Azure: · Drive projects related to COE and internal projects based on cloud Environment. • Worked on proposals, bill of materials and led on client presentations tos TATA CONSULTANCY SERVICES PAST EMPLOYER: TCS (Learning Achievement Award, On-Spot Award) • Worked on POC projects, SAP Hana Workload related projects and managed projects from Offshore Site Nature of Work and Client: Migration of SAP Hana on-prem workloads and Leading Tele Comm. Services Provider Main Project Features: Migrate SAP Hana workloads for TDI Certified VMs in Azure, requiring RAM up to 3 TB. Position held: Cloud Administrator Activities performed: · Configured high end workloads, taking M-series (Write-accelerator feature) into consideration. • Worked on TDI certified VMs, capable of handling SAP Hana Workloads, enabled backups for them. Personal Qualities · Keen in learning modern technologies and Good presentable as well as communication Skills. · Ability to lead teams and can manage complex projects, work under pressure to meet deadlines."}
+
+# Open Ai related
+pip install openai
+pip install python-dotenv
+
+# Test Chatgpt Output
+> python ai_skill_role_extractor.py
+> Output:
+PS C:\Users\ankit1\OneDrive - Microsoft\Desktop\Smart Career Mentor Agent> python ai_skill_role_extractor.py
+
+==== GPT Output ====
+
+Full Name: Ankit
+
+Skills:
+Technical Skills:
+1. Azure Technologies
+2. Infrastructure as Code (IaC) & Automation
+3. Terraform
+4. PowerShell
+5. ARM Template
+6. Kubernetes
+7. Docker
+8. Azure AI Services
+9. Machine Learning
+10. Azure Security
+
+Non-Technical Skills:
+1. Team Leadership
+2. Project Management
+3. Cost Optimization
+4. Client Communication
+5. Documentation
+
+Soft Skills:
+1. Communication
+2. Leadership
+3. Problem-Solving
+4. Time Management
+5. Adaptability
+
+Certifications:
+1. Certified DevOps Engineer Expert
+2. Certified Azure Solutions Architect Expert
+3. Certified Azure Administrator Associate
+4. Certified Azure Security Engineer Associate
+5. HashiCorp Certified Terraform Associate
+
+Experience Level: Senior (8+ years of experience)
+
+Recommended Roles:
+1. Azure Cloud Consultant
+2. Azure Solutions Architect
+3. DevOps Engineer
+4. Cloud Consultant
+5. Cloud Architect
+
+Most Likely Job Role: Azure Solutions Architect
+
+
+> Output stored as JSON for Suggested roles by gpt-turbo
+
+========================================================================================================
+
+# run skill_gap_recommender.py file
+> pip install --upgrade openai
+
+> pip show openai
+
+PS C:\Users\ankit1\OneDrive - Microsoft\Desktop\Smart Career Mentor Agent> python .\skill_gap_recommender.py
+
+==== SKILL GAP REPORT ====
+🎯 Suggested Role: Azure Solutions Architect
+📎 Resume Skills: ['Azure', 'Terraform', 'DevOps', 'IaC', 'Automation', 'Kubernetes', 'AI Services']
+📌 Required Skills (GPT): ['Solution Design', 'Infrastructure as Code', 'DevOps', 'Kubernetes', 'Cloud Security', 'CI/CD', 'Networking', 'Automation']
+❌ Missing Skills: ['Infrastructure as Code', 'Solution Design', 'Cloud Security', 'CI/CD', 'Networking']
+
+==== RECOMMENDED COURSES ====
+
+### Recommended Courses for Missing Skills:
+
+#### Infrastructure as Code:
+1. **Beginner-level Online Course:**
+   - **Course:** [Infrastructure as Code (IaC) Fundamentals on Azure](https://www.udemy.com/course/azure-infrastructure-as-code/)
+   - **Learning Website:** Pluralsight
+
+#### Solution Design:
+1. **Beginner-level Online Course:**
+   - **Course:** [Azure Solutions Architect Design Course](https://www.coursera.org/learn/azure-solutions-architect-design)
+   - **Learning Website:** edX
+
+#### Cloud Security:
+1. **Beginner-level Online Course:**
+   - **Course:** [Azure Security Fundamentals](https://learn.microsoft.com/en-us/training/courses/az-900t00)
+   - **Learning Website:** Microsoft Learn
+
+#### CI/CD:
+1. **Beginner-level Online Course:**
+   - **Course:** [Implementing Continuous Integration and Continuous Deployment with Azure DevOps](https://www.udemy.com/course/implementing-continuous-integration-and-continuous-deployment/)
+   - **Learning Website:** Udemy
+
+#### Networking:
+1. **Beginner-level Online Course:**
+   - **Course:** [Azure Networking Fundamentals](https://www.pluralsight.com/courses/microsoft-azure-networking-fundamentals)
+   - **Learning Website:** Pluralsight
+
+These courses and learning platforms are tailored to help you develop the necessary skills for your goal of becoming an Azure Solutions Architect. Good luck with your learning journey! 🚀
+
+# Display UI
+pip install streamlit openai python-dotenv PyPDF2
+pip install fpdf
+pip install python-docx
+

@@ -1,0 +1,13 @@
+{
+    "name": "Ankit",
+    "skills": [
+        "Azure",
+        "Terraform",
+        "DevOps",
+        "IaC",
+        "Automation",
+        "Kubernetes",
+        "AI Services"
+    ],
+    "suggested_role": "Azure Solutions Architect"
+}
