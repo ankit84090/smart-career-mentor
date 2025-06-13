@@ -8,6 +8,7 @@ A multi-step intelligent application that parses resumes, extracts key skills an
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## 📁 File Descriptions
 
@@ -28,18 +29,6 @@ pip install -r requirements.txt
 | `skill_gap_recommender.py` | Analyzes skill gaps between resume and target role using Azure OpenAI, and recommends courses for missing skills. |
 | `streamlit_app.py`         | Streamlit web application for uploading resumes, running the analysis pipeline, and displaying results with download option. |
 | `__pycache__/`             | Directory for Python bytecode cache files (auto-generated, ignored by git). |
-
----
-
-## 🚀 Getting Started
-
-### 1. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
 
 ## ⚡ Azure CLI Commands Used
 
@@ -80,3 +69,11 @@ az webapp config appsettings set \
 - Mapping skills to job roles.
 - Skill gap analysis and personalized course recommendations.
 - Streamlit-based interactive UI.
+
+
+## ✅ Quick Recap of What we've Built in Phase 1 (MVP):
+- 📄 Resume Upload & Parsing via Azure Form Recognizer
+- 🧠 Skill & Role Extraction using Azure OpenAI (GPT)
+- 📊 Skill Gap Analysis by comparing resume to role expectations
+- 📚 Course Recommendations tailored to missing skills
+- 🧾 PDF Reports + Streamlit UI with multi-user support
