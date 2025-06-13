@@ -117,7 +117,7 @@ PS C:\Users\ankit1\OneDrive - Microsoft\Desktop\Smart Career Mentor Agent> pytho
 
 These courses and learning platforms are tailored to help you develop the necessary skills for your goal of becoming an Azure Solutions Architect. Good luck with your learning journey! 🚀
 
-# Display UI
+#### Display UI
 pip install streamlit openai python-dotenv PyPDF2
 pip install fpdf
 pip install python-docx
