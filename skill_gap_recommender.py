@@ -27,12 +27,14 @@ You are an AI career mentor. A candidate has resume skills: {resume_skills} and 
 Your goal is to identify the most relevant technical and soft skills they should know for this role.
 
 💡 Guidelines:
-1. Recommend 6–10 balanced and practical skills (not just Azure-specific).
-2. Skills should include general architecture, DevOps, security, cloud principles, and platform-specific ones where needed.
-3. Expand abbreviations (e.g., IaC → Infrastructure as Code), but avoid redundancy if both are present.
-4. If 'IaC' is already in skills, don't re-suggest it as 'Infrastructure as Code'.
-5. Do not overfit to just one cloud (e.g., Azure), suggest transferable skills too (e.g., CI/CD, Networking).
-6. Return a clean Python list of strings.
+1. Recommend 6–10 balanced and practical skills (not just Technical-specific).
+2. Skills can be like general architecture, DevOps, security, cloud principles, and platform-specific ones where needed.
+3. Recommendations need to be exhaustive and not restricted to technical skills only.
+4. Eg. suggested role can be "Azure Cloud Engineer", "Hotel Management", "Business Management", etc.
+5. Expand abbreviations (e.g., IaC → Infrastructure as Code), but avoid redundancy if both are present.
+6. If 'IaC' is already in skills, don't re-suggest it as 'Infrastructure as Code'.
+7. Do not overfit to just one cloud (e.g., Azure), suggest transferable skills too (e.g., CI/CD, Networking).
+8. Return a clean Python list of strings.
 
 Return output like:
 ['Solution Design', 'Infrastructure as Code', 'CI/CD', 'Monitoring', 'Cost Optimization']
@@ -84,7 +86,7 @@ For each missing skill, recommend:
 
 🎯 Rules:
 - Match the learning platform and content to the domain like Azure, AWS, Data Science, GCP, DevOps, etc.
-- Avoid platform mismatch (e.g., AWS content for Azure role)
+- Avoid platform mismatch (e.g., Stick to Business Management courses if role is Business Mgmt., or do not suggest AWS content for Azure role)
 - Provide URLs if possible
 - Expand abbreviations (e.g., IaC → Infrastructure as Code), but avoid duplicates
 

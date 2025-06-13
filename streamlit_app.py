@@ -4,11 +4,6 @@ import tempfile
 import uuid
 import json
 
-openai_key    = os.environ.get("AZURE_OPENAI_KEY")
-form_key      = os.environ.get("FORM_RECOGNIZER_KEY")
-form_endpoint = os.environ.get("FORM_RECOGNIZER_ENDPOINT")
-
-
 from resume_parser import parse_resume
 from ai_skill_role_extractor import extract_skills_and_role_gpt
 from role_mapper import match_skills_to_roles
@@ -46,7 +41,7 @@ st.markdown(
 def safe_text(text):
     return text.encode('latin1', errors='ignore').decode('latin1')
 
-uploaded_files = st.file_uploader("📄 Upload Resume Files", type=["pdf", "docx"], accept_multiple_files=True)
+uploaded_files = st.file_uploader("📄 Upload Resume Files", type=["pdf"], accept_multiple_files=True)
 
 resume_outputs = {}
 
