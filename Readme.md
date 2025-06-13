@@ -21,7 +21,7 @@ pip install -r requirements.txt
 | `Readme.md`                | Project documentation and instructions. |
 | `requirements.txt`         | Lists all required packages like Python, Open AI, PDF etc. for the project. |
 | `requirements_old.txt`     | Legacy requirements and sample outputs for reference and testing. |
-| `resume_cleaner.py`        | Cleans and processes raw resume text, extracts structured data (name, email, phone, skills) using regex, spaCy, and Azure OpenAI. |
+| `resume_cleaner.py`        | Cleans and processes raw resume text, extracts structured data (name, email, phone, raw text) using regex, and spaCy. |
 | `resume_parser.py`         | Extracts text from PDF resumes using Azure Form Recognizer and calls `resume_cleaner.py` for further processing. |
 | `role_mapper.py`           | Maps extracted skills to predefined job roles and saves structured output to JSON. |
 | `sample_resume.pdf`        | Example resume file for testing the pipeline. |
