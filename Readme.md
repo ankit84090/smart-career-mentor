@@ -70,10 +70,26 @@ az webapp config appsettings set \
 - Skill gap analysis and personalized course recommendations.
 - Streamlit-based interactive UI.
 
-
 ## ✅ Quick Recap of What we've Built in Phase 1 (MVP):
+
 - 📄 Resume Upload & Parsing via Azure Form Recognizer
 - 🧠 Skill & Role Extraction using Azure OpenAI (GPT)
 - 📊 Skill Gap Analysis by comparing resume to role expectations
 - 📚 Course Recommendations tailored to missing skills
 - 🧾 PDF Reports + Streamlit UI with multi-user support
+
+## 🔁 Now Entering Phase 2: Agentic AI
+
+### 🎯 Goal: Evolve from “static LLM calls” to “AI Agentic workflows”
+
+#### 🚀 What You'll Learn & Build
+
+| Phase 2 Step | Topic                    | Description                                                                                   |
+|--------------|--------------------------|-----------------------------------------------------------------------------------------------|
+| 1            | Agent Frameworks         | Understand tools like LangChain, CrewAI, Autogen                                              |
+| 2            | Single-Agent Use Case    | Wrap existing logic (like GPT course recommender) inside an Agent                             |
+| 3            | Multi-Agent Architecture | Chain agents: e.g., Planner Agent → Skill Agent → Recommender Agent                          |
+| 4            | Tool Integration         | Let agents use tools: file system, web search, APIs                                          |
+| 5            | Memory/State             | Make agents remember user inputs across interactions                                          |
+| 6            | Agent Loop & Evaluation  | Let agents reason iteratively or collaboratively                                              |
+| 7            | Deploy to Azure          | Run your agentic app as a microservice (Function App, Container, etc.)                        |
